@@ -1,0 +1,411 @@
+.mainLogo{
+	width:45px;
+	height:45px;
+}
+
+.navbar-brand{
+	padding:0;
+}
+.betaBullsLogo{
+	font-weight: 100;
+	
+	font-family: inherit;
+	padding:10px 0;
+}
+.navbar li a{
+	padding-top:20px;
+	padding-bottom: 25px;
+}
+.navbar{
+	border:none;
+	background-color: #3f3f3f;
+}
+.col-centered{
+	float: none;
+	margin:0 auto;
+}
+#mainContentHowItWorks{
+	background-color: #000000;
+}
+.innerBoxes{
+	
+  background: rgba(255,255,255,0.74);
+  border: 1px solid #FFEDED;
+  padding: 50px 10px 0 10px;
+  margin-bottom: 35px;
+  height:250px !important;
+  font-size: 16px;
+ 
+}
+.innerBoxes:hover h4{
+	font-size: 19px;
+
+}
+.innerBoxes img,.innerBoxes svg{
+	width:35px;
+	height:35px;
+}
+.innerBoxes:hover i{
+	font-size: 55px;
+}
+.innerBoxes:hover img,.innerBoxes:hover svg{
+	height:48px;
+	width:48px;
+}
+.innerBoxes path{
+	
+	fill: #ff7878;
+}
+.iconSize{
+	width:75px;
+}
+
+.contact-step a{
+	color:#ffffff !important;
+}
+.innerBoxes:hover{
+	
+	box-shadow: 5px 5px 5px #E7E7E7;
+
+}
+.brakicon{
+	background-color: #0a3868;
+	border-radius: 25%;
+}
+.ourWorksBackground{
+	background: #DDDDDD;
+  padding: 50px 33px 13px;
+  border-radius: 33px;
+  margin: 10px 33px;
+  border: 1px solid #E9E9E9;
+  
+}
+.btnStyles{
+	padding:13px 32px;
+	font-size: 20px;
+	font-weight: 800;
+}
+@media only screen and (min-width : 992px) {
+	/*.innerBoxes:hover{
+	transform:scale(1.1);
+}*/
+.innerBoxes { transition: 0.3s;height:308px; }
+.innerBoxes:hover { transform: scale(1.1); }
+
+}
+#headerwrapMainPage{
+	background: url(../img/header-bg.jpg) no-repeat center top;
+	margin-top: -4px;
+	padding-top:20px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 440px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#headerwrapMainPage h1{
+	margin-top: 100px;
+  color: white;
+  font-size: 70px;
+  font-weight: 300;
+  letter-spacing: 3px;
+
+}
+#headerwrapMainPage h2{
+	color: white;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+
+#chatwithUs{
+	width:250px;
+	  margin: 0px 20px;
+  bottom: -22px;
+  right: 0px;
+  position: fixed;
+}
+#chatwithUs .panel-heading{
+	background-color: #5ba0d0;
+}
+#chatwithUs .panel-title  a{
+	color:#FFFFFF;
+}
+#chatwithUs p{
+	padding-bottom: 5px;
+	margin-bottom: 0;
+}
+#chatwithUs .form-control{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#formBackground{
+	background: url("../img/6332_bg_envelope.png") no-repeat;
+	background-position: center;
+	height:511px;
+}
+#formBackground .form-control{
+	background:transparent;
+	color:#ff7878;
+	width:380px;
+	height:21px;
+	margin:0 auto;
+}
+#formBackground textarea{
+	height:95px !important;
+}
+#formBackground span{
+	color:#fd2500;
+}
+.innerBoxes a{
+	color:#555 !important;
+}
+#formBackground label{
+	margin:0 0 0px 97px;
+	font-size: 12px;
+	font-weight: normal;
+}
+#myModal .modal-header{
+	min-height: 46px;
+}
+#myModal .close{
+	font-size: 26px;
+}
+#formBackground .modal-body{
+	padding:20px 20px 0 20px;
+}
+#formBackground h3{
+	font-weight: bold;
+	font-size: 30px;
+	color:#3e83a5;
+	padding-top: 14px;
+
+}
+#formBackground p{
+	margin-bottom: 0;
+}
+
+.modalStyles{
+	padding-bottom: 0;
+	height:auto;
+}
+#blue{
+	margin-top: -5px;
+}
+#howItworksContent{
+	background-color: #050505;
+	color:#FFFFFF;
+	padding-top: 55px;
+  padding-bottom: 18px;
+}
+
+.innerContent:hover, .innerContent:hover h4{
+	  transition: 1s;
+  border: 0;
+  padding: 0 0 33px;
+  background: rgba(255,255,255,0);
+
+}
+.innerContent:hover{
+	margin: 33px 93px 66px;
+}
+.innerContent{
+	background: rgba(29,29,29,1);
+  border: 1px solid #88ADD6;
+  
+  margin: 33px;
+  height: 480px;
+  color: #ffffff;
+  padding:140px 40px;
+  /*padding:33px;*/
+}
+.innerContent h4{
+	font-weight: 600;
+	color:#ffffff;
+
+  margin-top: 20px;
+}
+.innerContent h2 span{
+	padding: 15px 20px;
+  font-size: 19px;
+  background-color: #3a87ad!important;
+  color:#ffffff;
+  font-weight: 600;
+  border-radius: 3px;
+}
+#howItworksContent h4{
+	font-weight: 600;
+	color:#ffffff;
+	padding:50px 0;
+}
+#r h3{
+	
+	color:#333333;
+}
+#leanFreePlans{
+	padding:133px 0 131px;
+	background:url("../img/Lean-Startup_icon-white-w333.png") center center no-repeat;
+}
+#leanFreePlans h1{
+	font-size: 38.5px;
+}
+.freerow .pricing-option .pricing-top{
+	padding: 38px 20px 32px 20px;
+}
+#ourPricing{
+	  margin: 90px 50px 10px 87px;
+}
+.pricing-free-top{
+	background: rgba(161,161,255,0.44) !important;
+  color: #7463B6 !important;
+}
+.pricing-hash-top{
+	background: #1F301E !important;
+  color: #6CB865 !important;
+}
+.pricing-mvp-top{
+	  background: #251801 !important;
+  color: #F1720E !important;
+}
+.freerow .pricing-option .pricing-signup{
+
+	background: rgba(115,115,250,0.58);
+}
+.hasoutrow .pricing-option .pricing-items-hash{
+	background: rgba(71,194,170,0.06);
+
+}
+.mvprow .pricing-option .pricing-signup-mvp{
+	  background: orange;
+}
+#faqsPost{
+	padding:66px 87px 75px;
+	text-align: justify;
+}
+.newfFont{
+	font-size: 12px;
+}
+
+.blog-index .linklist li{
+	background: rgba(250, 250, 250, 0.85);
+  box-shadow: -8px -8px rgba(153, 153, 153, 0.03);
+  min-height: 303px;
+  margin: 35px 20px;
+  padding: 35px 35px 60px 35px;
+  list-style-type: none;
+}
+.blog-thumb{
+	width:300px;
+}
+.cal-icon{
+	width: 27px;
+  height: 25px;
+  margin: 0 0 -6px 0;
+  fill: rgb(61,104,61);
+}
+.cal-link a{
+	color:green;
+}
+.cal-link{
+	width: 100%;
+  display: block;
+  padding: 0 0 13px;
+}
+.blog-index {
+  padding: 77px 0 0px 35px !important;
+}
+
+#myModalLeanVideo .modal-body,#myModalStartUpLeanVideo .modal-body,#myModalRunningLeanVideo .modal-body{
+	background-color: #222;
+	padding-bottom: 20px;
+}
+#myModalLeanVideo iframe,#myModalStartUpLeanVideo iframe,#myModalRunningLeanVideo iframe{
+	width:540px;
+	height:280px;
+	border:none;
+}
+#myModalPricingFaqs .modal-body{
+	padding-bottom: 30px;
+	font-size: 14px;
+}
+.commisinizeLogo{
+	background-color: #318742;
+	border-radius: 25%;
+
+
+}
+.simpleOnBoardImg{
+	margin:0 auto;
+}
+iframe body,iframe html{
+	background:#f7f7f7;
+	height:522px;
+
+}
+#leanBooks{
+	padding-top:75px;
+	padding-bottom:  131px;
+	
+}
+#leanBooks h1{
+	font-size: 38.5px;
+}
+#leanBooks .col-md-2{
+	width:20%;
+	margin:0 auto;
+}
+#leanBooks img{
+	padding-top: 20px;
+}
+.paly-icon{
+	transition: 1s;
+  opacity: 0;
+  width: 222px;
+  height: 222px;
+  position: absolute;
+  margin: 186px 0 0 91px;
+  fill: #fff;
+  cursor: pointer;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+#leanBooks a:hover svg{
+	opacity:0.9;
+}
+.leanSeriesplay svg{
+	margin:90px 0px 20px 0px;
+
+}
+.calendar-page{
+    padding: 0 33px 33px;
+    display: block;
+  }
+
+  .modalica-modal.active{
+  	background-color: #E7E7E7;
+  	margin-top: 30px;
+  }
+  .modalica-modal .modalica--close{
+  	float:right;
+  }
+  .modalica-modal .modalica--content img, .modalica-modal .modalica--content embed{
+  	max-width: 50%;
+  	margin:0 auto;
+  }
+  .modalica--content{
+  	text-align: justify;
+  }
